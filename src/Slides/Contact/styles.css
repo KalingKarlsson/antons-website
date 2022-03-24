@@ -1,0 +1,74 @@
+.contact {
+    background-color: white;
+    width: 100%;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 4vmin;
+}
+
+.contact-header {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-card {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 60vmin;
+    min-width: 220px;
+    height: 12vmin;
+    margin-top: 4vmin;
+    margin-bottom: 8vmin;
+    padding-bottom: 4vmin;
+    padding-top: 2vmin;
+    
+    background: #FDFDFD;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.contact-title {
+    border-bottom: 2px solid #3992D9;
+    padding-left: 4%;
+    padding-right: 4%;
+    min-width: 100px;
+}
+
+.text {
+    font-size: calc(4px + 2vmin);
+    background: -webkit-linear-gradient(97.61deg, #3992D9 34.21%, #252D4D 74.92%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+}
+
+.button {
+    background: linear-gradient(97.61deg, #252D4D 34.21%, #3992D9 74.92%);
+    width: 9vmin;
+    height: calc(16px + 3vmin);
+    border-radius: 24px !important;
+}
+
+.button:hover {
+    background: linear-gradient(97.61deg, #3992D9 34.21%, #3992D9 74.92%);
+}
+
+.button:hover>.icon {
+    color: #252D4D;
+}
+
+.icon {
+    color: white;
+    width: calc(16px + 3vmin) !important;
+    height: calc(16px + 3vmin)  !important;
+}

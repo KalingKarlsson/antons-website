@@ -1,0 +1,27 @@
+.skills {
+    background-color: white;
+    width: 100%;
+    min-height: 50vmin;
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4vmin;
+}
+
+.skills-title {
+    border-bottom: 2px solid #3992D9;
+    padding-left: 4%;
+    padding-right: 4%;
+    min-width: 50px;
+    color: black;
+}
+
+.image-skills {
+    width: 80%;
+    min-width: 300px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}

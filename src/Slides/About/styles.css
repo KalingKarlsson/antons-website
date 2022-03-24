@@ -1,0 +1,32 @@
+.about {
+    background: linear-gradient(97.61deg, #252D4D 34.21%, #3992D9 74.92%);
+    min-height: 45vmin;
+    width: 100%;
+    padding-top: 12vmin;
+}
+
+.about-content {
+    display: flex;
+    min-height: 45vmin;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 30%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 6vmin;
+}
+
+.image-styles {
+    border-radius: 50%;
+    max-width: 350px;
+    min-width: 260px;
+    width: calc(250px + 10%);
+}
+
+.text-about {
+    color: white;
+    width: calc(100px + 50%);
+    justify-content: center;
+    white-space: pre-wrap;
+    text-align: center;
+}

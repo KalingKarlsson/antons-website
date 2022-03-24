@@ -1,0 +1,69 @@
+{
+    "name": "Anton Karlsson",
+    "about": "Anton is a person who likes to be a part of the entire process of development, so that he can learn and to have a better impact on the project. He has a big interest in app development and is currently working on an hobby project in react native. \n\nHe always want to learn new things so that he can become a better developer. So challenges is something he welcomes. He enjoys working in an agile team where you work closely with your colleagues to solve problems in the most efficient way. Anton have experience as a support technician which really helps with social interactions and help him and his team grow. \n\nAnton excels at React and JavaScript/TypeScript development, especially when it comes to web development.",
+    "projects": [
+        {
+            "name": "Notes4Games",
+            "hint": "Scoreboards for your card games. Created with React Native.",
+            "github": "https://github.com/KalingKarlsson/Notes4Games"
+        },
+        {
+            "name": "PinballHighscores",
+            "hint": "Highscores for a pinball machine",
+            "github": "https://github.com/KalingKarlsson/PinballHighscores"
+        },
+        {
+            "name": "MovieListApp",
+            "hint": "List of movies and what they are about.",
+            "github": "https://github.com/KalingKarlsson/MovieListApp"
+        },
+        {
+            "name": "Notes4Games",
+            "hint": "Scoreboards for your card games. Created with React Native."
+        }
+    ],
+    "skills": [
+        {
+            "name": "JavaScript",
+            "image": ""
+        }
+    ],
+    "experience": [
+        {
+            "name": "Afry X",
+            "title": "Software Developer",
+            "description": "Anton started with being responsible for a front-end application which was about buildings. During this project Anton got mentored about being a Scrum Master. Anton later moved on to another Project about buildings where he became the Scrum Master for the team and also worked as a developer. In this project Anton Contributed to the development and release of several new features which is today used by hundreds of Users. ",
+            "cert": "Certified Scrum Master (CSM), AZ-900 Azure Fundamentals",
+            "start": "2021 Jun",
+            "end": "present",
+            "image": "afry.png"
+        },
+        {
+            "name": "Yabs",
+            "title": "SW Developer at Assa Abloy",
+            "description": "Anton started out with researching H2O.ai and developed models that could be used in java applications. Since October Anton is working in a utility team that develops libraries for other teams. As of a April 2021, Anton has been a part of releasing 3 new libraries.",
+            "cert": "",
+            "start": "2020 Sep",
+            "end": "2021 May",
+            "image": "Assa.png"
+        },
+        {
+            "name": "Yabs",
+            "title": "App Developer Inhouse",
+            "description": "Anton was working on a project for the customer BiznizTools, where he was working on a mobile app in React Native. He worked in a small agile team where he mostly focused on developing the UI for a new feature.",
+            "cert": "",
+            "start": "2020 Sep",
+            "end": "2020 Sep",
+            "image": "Yabs.png"
+        },
+        {
+            "name": "Jönköping University",
+            "title": "Computer Technology with Mobile Platforms",
+            "description": "Change this later. Anton was working on a project for the customer BiznizTools, where he was working on a mobile app in React Native. He worked in a small agile team where he mostly focused on developing the UI for a new feature.",
+            "cert": "",
+            "start": "2016 Aug",
+            "end": "2020 Jun",
+            "image": "JU.png"
+        }
+    ]
+}
