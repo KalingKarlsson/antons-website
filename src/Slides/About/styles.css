@@ -1,8 +1,9 @@
 .about {
     background: linear-gradient(97.61deg, #252D4D 34.21%, #3992D9 74.92%);
-    min-height: 45vmin;
+    min-height: 43vw;
     width: 100%;
     padding-top: 12vmin;
+    display: flex;
 }
 
 .about-content {
@@ -24,7 +25,7 @@
 }
 
 .text-about {
-    color: white;
+    color: rgb(233, 227, 227);
     width: calc(100px + 50%);
     justify-content: center;
     white-space: pre-wrap;

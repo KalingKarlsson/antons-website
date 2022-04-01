@@ -1,12 +1,14 @@
 .skills {
     background-color: white;
     width: 100%;
-    min-height: 50vmin;
+    min-height: 80vmin;
+    display: flex;
 }
 
 .skills-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding-top: 4vmin;
 }
@@ -16,7 +18,7 @@
     padding-left: 4%;
     padding-right: 4%;
     min-width: 50px;
-    color: black;
+    color: #333;
 }
 
 .image-skills {

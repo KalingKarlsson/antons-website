@@ -5,27 +5,25 @@
         {
             "name": "Notes4Games",
             "hint": "Scoreboards for your card games. Created with React Native.",
-            "github": "https://github.com/KalingKarlsson/Notes4Games"
+            "github": "https://github.com/KalingKarlsson/Notes4Games",
+            "file": true
         },
         {
             "name": "PinballHighscores",
             "hint": "Highscores for a pinball machine",
-            "github": "https://github.com/KalingKarlsson/PinballHighscores"
+            "github": "https://github.com/KalingKarlsson/PinballHighscores",
+            "file": false
         },
         {
             "name": "MovieListApp",
             "hint": "List of movies and what they are about.",
-            "github": "https://github.com/KalingKarlsson/MovieListApp"
+            "github": "https://github.com/KalingKarlsson/MovieListApp",
+            "file": false
         },
         {
-            "name": "Notes4Games",
-            "hint": "Scoreboards for your card games. Created with React Native."
-        }
-    ],
-    "skills": [
-        {
-            "name": "JavaScript",
-            "image": ""
+            "name": "More to come...",
+            "hint": "I have a great idea which is not public yet.",
+            "file": false
         }
     ],
     "experience": [
@@ -41,7 +39,7 @@
         {
             "name": "Yabs",
             "title": "SW Developer at Assa Abloy",
-            "description": "Anton started out with researching H2O.ai and developed models that could be used in java applications. Since October Anton is working in a utility team that develops libraries for other teams. As of a April 2021, Anton has been a part of releasing 3 new libraries.",
+            "description": "Anton started out with researching H2O.ai and developed models that could be used in java applications. Since October Anton is working in a utility team that develops libraries for other teams. After 6 months of working in the team, Anton had been a part of releasing 3 new libraries.",
             "cert": "",
             "start": "2020 Sep",
             "end": "2021 May",
@@ -59,7 +57,7 @@
         {
             "name": "Jönköping University",
             "title": "Computer Technology with Mobile Platforms",
-            "description": "Change this later. Anton was working on a project for the customer BiznizTools, where he was working on a mobile app in React Native. He worked in a small agile team where he mostly focused on developing the UI for a new feature.",
+            "description": "Anton studied at Jönköping University about computer technology with mobile platforms. He studied the basics of programming and started out with C and C++. The education gave Anton a good starting point for his carrer. He found a big interest in Android development and app development which made him discover React Native and become more interested ni front-end. He also learnt about python and network-programming, aswell as IOS development using Swift. The last course Anton had was about Agile and Scrum which he also found extra interesting. And now he is a certified Scrum Master.",
             "cert": "",
             "start": "2016 Aug",
             "end": "2020 Jun",

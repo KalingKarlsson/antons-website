@@ -8,9 +8,10 @@ interface Iproject {
     name: string;
     hint: string;
     url: string | undefined;
+    file: boolean;
 }
 
-const Project: React.FC<Iproject> = ({ name, hint, url }) => {
+const Project: React.FC<Iproject> = ({ name, hint, url, file }) => {
     const [hover, setHover] = useState(false);
     const onHover: React.MouseEventHandler<HTMLDivElement> = () => {
         setHover(true);
@@ -18,6 +19,11 @@ const Project: React.FC<Iproject> = ({ name, hint, url }) => {
 
     const onLeave: React.MouseEventHandler<HTMLDivElement> = () => {
         setHover(false);
+    };
+
+    const downloadFile = (): void => {
+        window.location.href =
+            'https://expo.dev/artifacts/eas/hgEyF7KBvA6XdxJ4Vc2Pog.apk';
     };
 
     return (
@@ -34,12 +40,22 @@ const Project: React.FC<Iproject> = ({ name, hint, url }) => {
             >
                 <p>{hover ? hint : name}</p>
             </a>
+
+            {hover && file && (
+                <div>
+                    <button className='download-button' type="button" onClick={downloadFile}>
+                        Download
+                    </button>
+                </div>
+            )}
         </div>
     );
 };
 
+// https://expo.dev/artifacts/eas/hgEyF7KBvA6XdxJ4Vc2Pog.apk
+
 const Projects: React.FC = () => (
-    <div id='projects' className="projects">
+    <div id="projects" className="projects">
         <div className="projects-content">
             <Typography className="projects-title" fontSize="xx-large">
                 Projects
@@ -53,6 +69,7 @@ const Projects: React.FC = () => (
                         name={project.name}
                         hint={project.hint}
                         url={project.github}
+                        file={project.file}
                     />
                 ))}
             </div>

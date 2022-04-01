@@ -1,14 +1,17 @@
 .projects {
     background-color: white;
     width: 100%;
-    min-height: 50vmin;
+    min-height: calc(300px + 50vmin);
+    display: flex;
+    margin-top: 4vmin;
 }
 
 .projects-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding-top: 4vmin;
+    width: 100%;
 }
 
 .projects-header {
@@ -32,7 +35,7 @@
     align-items: center;
     width: 50vmin;
     min-width: 240px;
-    height: 18vmin;
+    height: calc(50px + 15vmin);
     margin: 1vmin;
 
     background: linear-gradient(126.27deg, #252D4D 28.84%, #3992D9 116.32%);
@@ -49,24 +52,32 @@
     padding-left: 4%;
     padding-right: 4%;
     min-width: 100px;
-    color: black;
+    color: #333;
 }
 
 .sub-title {
-    color: black;
+    color: #333;
 }
 
 .project-text-name {
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: rgb(255, 247, 247);
     text-align: center;
     text-decoration: none;
 }
 
 .project-text-hint {
     font-size: calc(10px + 1vmin);
-    color: white;
+    color: rgb(255, 247, 247);
     text-align: center;
     text-decoration: none;
     width: 80%;
+}
+
+.download-button {
+    background-color: white;
+    border: none;
+    border-radius: 4%;
+    font-size: calc(6px + 2vmin);
+    cursor: pointer;
 }

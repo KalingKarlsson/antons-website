@@ -8,7 +8,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 4vmin;
+    padding-top: 10vmin;
+    padding-bottom: 10vmin;
 }
 
 .experience-title {
@@ -60,7 +61,7 @@
 
 .experience-text-white {
     width: 50%;
-    color: white;
+    color: rgb(255, 247, 247);
     font-size: calc(8px + 1vmin) !important;
     min-width: 350px;
     padding: 2vmin;
@@ -68,7 +69,7 @@
 
 .experience-text-black {
     width: 50%;
-    color: black;
+    color: #333;
     font-size: calc(8px + 1vmin) !important;
     min-width: 350px;
     padding: 2vmin;
@@ -82,13 +83,13 @@
 }
 
 .stat-text-white {
-    color: white;
+    color: rgb(255, 247, 247);
     padding: 4px;
     font-size: calc(10px + 1vmin) !important;
 }
 
 .stat-text-black {
-    color: black;
+    color: #333;
     padding: 4px;
     font-size: calc(10px + 1vmin) !important;
 }

@@ -1,34 +1,6 @@
+
 .App-header {
     width: 100%;
-}
-
-.nav-header {
-    height: 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    padding-left: calc(10px + 2rem);
-    padding-right: calc(10px + 2rem);
-    margin-bottom: 3rem;
-    padding-top: 10px;
-    border-bottom-style: solid;
-    border-bottom-width: 0.01cm;
-    border-bottom-color: white;
-}
-
-.Header-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 10%;
-
-}
-
-.Header-link {
-    font-size: calc(6px + 1vmin);
-    margin-left: calc(10px + 1rem);
 }
 
 .link-tag {
@@ -61,7 +33,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    color: #FFF;
+    color: rgb(233, 227, 227);
     height: 50px;
     width: 100%;
     padding: 1em;
@@ -75,7 +47,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    color: #FFF;
+    color: rgb(233, 227, 227);
     height: 50px;
     width: 100%;
     padding: 1em;
@@ -117,7 +89,7 @@ body {
 .menu-button::before,
 .menu-button::after {
     display: block;
-    background-color: #fff;
+    background-color: rgb(233, 227, 227);
     position: absolute;
     height: 4px;
     width: 30px;
@@ -189,7 +161,7 @@ body {
         margin: 0;
         padding: 0.5em 0;
         width: 100%;
-        color: white;
+        color: rgb(233, 227, 227);
         background-color: #222;
     }
 
