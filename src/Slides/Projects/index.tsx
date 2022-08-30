@@ -21,10 +21,11 @@ const Project: React.FC<Iproject> = ({ name, hint, url, file }) => {
         setHover(false);
     };
 
-    const downloadFile = (): void => {
-        window.location.href =
-            'https://expo.dev/artifacts/eas/hgEyF7KBvA6XdxJ4Vc2Pog.apk';
-    };
+    // const downloadFile = (): void => {
+    //     window.location.href =
+    //         'https://expo.dev/artifacts/eas/hgEyF7KBvA6XdxJ4Vc2Pog.apk';
+    // outdated apk version N/A
+    // };
 
     return (
         <div
@@ -43,16 +44,18 @@ const Project: React.FC<Iproject> = ({ name, hint, url, file }) => {
 
             {hover && file && (
                 <div>
-                    <button className='download-button' type="button" onClick={downloadFile}>
+                    {/* <button
+                        className="download-button"
+                        type="button"
+                        onClick={downloadFile}
+                    >
                         Download
-                    </button>
+                    </button> */}
                 </div>
             )}
         </div>
     );
 };
-
-// https://expo.dev/artifacts/eas/hgEyF7KBvA6XdxJ4Vc2Pog.apk
 
 const Projects: React.FC = () => (
     <div id="projects" className="projects">
@@ -70,6 +73,7 @@ const Projects: React.FC = () => (
                         hint={project.hint}
                         url={project.github}
                         file={project.file}
+                        key={Math.random()}
                     />
                 ))}
             </div>

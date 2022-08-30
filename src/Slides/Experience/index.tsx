@@ -32,51 +32,47 @@ const Experience: React.FC = () => {
         }
 
         return 'stat-text-white';
-    };    
+    };
 
     return (
-        <div id='experience' className="experience">
+        <div id="experience" className="experience">
             <div className="experience-content">
                 <Typography className="experience-title" fontSize="xx-large">
                     Experience
                 </Typography>
-                {data.experience.map((experience, index) => {
-                    console.log(experience.image);
-
-                    return (
-                        <div className={applyRowStyles(index)}>
-                            <img
-                                src={`/assets/${experience.image}`}
-                                alt="experience"
-                                className="image-style"
-                            />
-                            <div className="experience-stats">
-                                <Typography
-                                    className={applyRowStatTextStyles(index)}
-                                >
-                                    {experience.name}
-                                </Typography>
-                                <Typography
-                                    className={applyRowStatTextStyles(index)}
-                                >
-                                    {experience.title}
-                                </Typography>
-                                <Typography
-                                    className={applyRowStatTextStyles(index)}
-                                >
-                                    {experience.start} {'> '}
-                                    {experience.end}
-                                </Typography>
-                            </div>
+                {data.experience.map((experience, index) => (
+                    <div className={applyRowStyles(index)} key={Math.random()}>
+                        <img
+                            src={`/assets/${experience.image}`}
+                            alt="experience"
+                            className="image-style"
+                        />
+                        <div className="experience-stats">
                             <Typography
-                                className={applyRowTextStyles(index)}
-                                fontSize="medium"
+                                className={applyRowStatTextStyles(index)}
                             >
-                                {experience.description}
+                                {experience.name}
+                            </Typography>
+                            <Typography
+                                className={applyRowStatTextStyles(index)}
+                            >
+                                {experience.title}
+                            </Typography>
+                            <Typography
+                                className={applyRowStatTextStyles(index)}
+                            >
+                                {experience.start} {'> '}
+                                {experience.end}
                             </Typography>
                         </div>
-                    );
-                })}
+                        <Typography
+                            className={applyRowTextStyles(index)}
+                            fontSize="medium"
+                        >
+                            {experience.description}
+                        </Typography>
+                    </div>
+                ))}
             </div>
         </div>
     );
