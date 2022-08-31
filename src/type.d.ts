@@ -1,3 +1,7 @@
+declare module '*.pdf';
+declare module '*.mp4';
+declare module 'react-player';
+
 interface IUser {
     id: string; //PK
     name: string;
@@ -43,7 +47,7 @@ interface IStatistics {
 
 interface IAgeGroup {
     id: string;
-    ageMin: number,
+    ageMin: number;
     ageMax: number;
     users: number;
 }

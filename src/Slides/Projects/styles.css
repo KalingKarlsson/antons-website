@@ -41,7 +41,7 @@
     background: linear-gradient(126.27deg, #252D4D 28.84%, #3992D9 116.32%);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    }
+}
 
 .projects-card:hover {
     background: #252D4D;
@@ -77,7 +77,25 @@
 .download-button {
     background-color: white;
     border: none;
-    border-radius: 4%;
+    border-radius: 8%;
     font-size: calc(6px + 2vmin);
     cursor: pointer;
+    padding: 4px 12px 4px 12px;
+}
+
+.download-button>a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-container {
+    width: 100vw;
+    height: 100vh;
 }

@@ -3,10 +3,15 @@
     "about": "Anton is a person who likes to be a part of the entire process of development, so that he can learn and to have a better impact on the project. He has a big interest in app development and is currently working on an hobby project in react native. \n\nHe always want to learn new things so that he can become a better developer. So challenges is something he welcomes. He enjoys working in an agile team where you work closely with your colleagues to solve problems in the most efficient way. Anton have experience as a support technician which really helps with social interactions and help him and his team grow. \n\nAnton excels at React and JavaScript/TypeScript development, especially when it comes to web development.",
     "projects": [
         {
+            "name": "Stamps4All",
+            "hint": "Loyalty cards with QR scan for everyone",
+            "file": true
+        },
+        {
             "name": "Notes4Games",
             "hint": "Scoreboards for your card games. Created with React Native.",
             "github": "https://github.com/KalingKarlsson/Notes4Games",
-            "file": true
+            "file": false
         },
         {
             "name": "PinballHighscores",
@@ -18,11 +23,6 @@
             "name": "MovieListApp",
             "hint": "List of movies and what they are about.",
             "github": "https://github.com/KalingKarlsson/MovieListApp",
-            "file": false
-        },
-        {
-            "name": "More to come...",
-            "hint": "I have a great idea which is not public yet.",
             "file": false
         }
     ],

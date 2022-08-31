@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import './styles.css';
-import { Typography } from '@mui/material';
+import { Dialog, Typography } from '@mui/material';
+import ReactPlayer from 'react-player';
 
+import VIDEO from '../../assets/Stamp4AllScanDemo.mp4';
+import PDF from '../../assets/ProductPaper.pdf';
 import data from '../../assets/data.json';
 
 interface Iproject {
@@ -13,8 +16,11 @@ interface Iproject {
 
 const Project: React.FC<Iproject> = ({ name, hint, url, file }) => {
     const [hover, setHover] = useState(false);
+    const [showVideo, setShowVideo] = useState<boolean>(false);
+
     const onHover: React.MouseEventHandler<HTMLDivElement> = () => {
         setHover(true);
+        setShowVideo(false);
     };
 
     const onLeave: React.MouseEventHandler<HTMLDivElement> = () => {
@@ -43,14 +49,43 @@ const Project: React.FC<Iproject> = ({ name, hint, url, file }) => {
             </a>
 
             {hover && file && (
-                <div>
-                    {/* <button
-                        className="download-button"
-                        type="button"
-                        onClick={downloadFile}
-                    >
-                        Download
-                    </button> */}
+                <div className="content-container">
+                    {showVideo ? (
+                        <Dialog
+                            open={showVideo}
+                            className="video-container"
+                            onBackdropClick={() => {
+                                setHover(false);
+                                setShowVideo(!showVideo);
+                            }}
+                        >
+                            <ReactPlayer
+                                url={VIDEO}
+                                volume={0}
+                                muted
+                                width="100%"
+                                height="100%"
+                                controls
+                            />
+                        </Dialog>
+                    ) : null}
+
+                    <div className="download-button">
+                        <a href={PDF} target="_blank" rel="noreferrer">
+                            Images
+                        </a>
+                    </div>
+                    <div>
+                        <button
+                            type="button"
+                            className="download-button"
+                            onClick={() => {
+                                setShowVideo(!showVideo);
+                            }}
+                        >
+                            Video
+                        </button>
+                    </div>
                 </div>
             )}
         </div>
