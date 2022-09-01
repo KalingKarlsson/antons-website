@@ -3,7 +3,7 @@ import './styles.css';
 import { Dialog, Typography } from '@mui/material';
 import ReactPlayer from 'react-player';
 
-import VIDEO from '../../assets/Stamp4AllScanDemo.mp4';
+import VIDEO from '../../assets/S4AScanDemo.mp4';
 import PDF from '../../assets/ProductPaper.pdf';
 import data from '../../assets/data.json';
 
